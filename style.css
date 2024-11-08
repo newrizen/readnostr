@@ -1,0 +1,140 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura do elemento */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Fundo escuro */
+    color: #FFFFFF; /* Texto branco */
+}
+
+main{
+    max-width: 1200px; /* Define a largura máxima do main */
+    margin: 0 auto; /* Centraliza o main */
+    padding: 20px; /* Aplica um espaçamento interno */
+}
+
+.center{
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%; /* Define a largura como 100% dentro do main */
+}
+
+.topic-title{
+    background-color: ;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.subtopic{
+    font-weight: 900;
+}
+
+.small-text{
+    font-size: 10px;
+}
+
+#traits, #seed, #electrum, #trilemma{
+    width: 100%; /* Deixa as imagens responsivas */
+    max-width: 500px; /* Limita a largura máxima das imagens */
+    margin: 0 auto; /* Centraliza as imagens */
+}
+
+a:link, a:visited{
+    color: #AE8CD6;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+select, input {
+    background: #121212;
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    background: #8f00d7;
+    border-radius: 5px;
+    border: none;
+    height: 48px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+button:active {
+    opacity: 0.6;
+}
+
+.section-box {
+    border: 2px solid #922da2;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.arrow-img {
+    margin: 16px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #A8A8A8;
+    font-size: 14px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #999999;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.colored{
+    background-color: indigo;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+#author{
+    font-weight: 900;
+    text-align: center;
+}
