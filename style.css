@@ -19,7 +19,7 @@ main{
 .pdf-container {
     position: relative;
     width: 100%;
-    padding-top: 65%;
+    padding-top: 67%;
 }
 
 .pdf-container iframe {
@@ -29,13 +29,6 @@ main{
     width: 100%;
     height: 100%;
     border: none;
-}
-
-/* Ajuste para dispositivos móveis */
-@media (max-width: 600px) {
-    .pdf-container {
-        padding-top: 100%; /* Ajusta para 100% da largura, evitando barras de rolagem */ 
-    } 
 }
 
 
