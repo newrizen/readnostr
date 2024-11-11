@@ -19,7 +19,7 @@ main{
 .pdf-container {
     position: relative;
     width: 100%;
-    padding-top: 60%;
+    padding-top: 65%;
 }
 
 .pdf-container iframe {
