@@ -31,6 +31,14 @@ main{
     border: none;
 }
 
+/* Ajuste para dispositivos móveis */
+@media (max-width: 600px) {
+    .pdf-container {
+        padding-top: 100%; /* Ajusta para 100% da largura, evitando barras de rolagem */ 
+    } 
+}
+
+
 .center{
     text-align: center; /* Centraliza o texto horizontalmente */
 }
