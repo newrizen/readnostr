@@ -1,2 +1,2 @@
-# NostrEmbedSlide
-This is just a way to show my slide presentation
+# Read Nostr
+Uma página simples com apresentaçoes de slide explicando sobre o Nostr.
