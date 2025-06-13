@@ -45,12 +45,12 @@
 
         <h2>O que é o Nostr?</h2>
         <ul>
-          <li>O Nostr é um protocolo descentralizado que permite a trocas de informações criptografadas.</li>
-          <li>A partir dele qual quer um pode criar clients, ou melhor, aplicações que o utiliza para mandar mensagens, fazer pagamentos com bitcoin e outros serviços, entre elas.</li>
-          <li>Ele basicamente cria uma nova internet, sem centrar em empresas, mas na liberdade de escolha e maior segurança contra censura de usuário.</li>
+          <li>O Nostr é um protocolo descentralizado que permite multiplas redes sociais e serviços por trocas de informações altamente criptografadas.</li>
+          <li>A partir dele qualquer um pode usar e até criar clients, ou melhor, apps, sites e programas com base nele, para mandar mensagens, fazer pagamentos com bitcoin e outros serviços.</li>
+          <li>Pessoas em diferentes clients podem trocar mensagens entre si, criando basicamente uma nova internet, sem se centrar em empresas, mas na liberdade de escolha e maior segurança contra censura de usuário.</li>
         </ul>
           <p>
-            <a href="https://github.com/nostr-protocol/nostr" target="_blank">A Fonte do Nostr;</a>
+            <a href="https://github.com/nostr-protocol/nostr" target="_blank">A Fonte Original do Nostr;</a>
           </p>
 
         <h2>Principais Qualidades:</h2>
@@ -63,23 +63,26 @@
   
         <h2>Traços do Protocolo:</h2>
         <figure>
-          <img id="traits" alt="Qualidades do Protocolo" src="assets/qualidadesdodinheiro.png">
+          <img id="funcionamento" alt="Funcionamento do Protocolo" src="assets/funcionamentodoprotocolo.jpeg">
           <figcaption>
-            <a href="https://youtu.be/hvR5msOeqxE" target="_blank">Vídeo - GUIA completo de NOSTR: O protocolo que descentraliza REDES SOCIAIS;</a>
+            Nostr illustration by <a href="https://primal.net/p/npub1e4qg56wvd3ehegd8dm7rlgj8cm998myq0ah8e9t5zeqkg7t7s93q750p76" target="_blank">@awayuki</a>, source: <a href="https://primal.net/e/note1hzc8ez6lz7em2et03strr3kn5x4nnvhhtpwv3ueqnq95wuz8zk9sx6eh7z" target="_blank">@fiatjaf</a>
           </figcaption>
         </figure>
+        <p>
+            <a href="https://youtu.be/hvR5msOeqxE" target="_blank">Vídeo - GUIA completo de NOSTR;</a>
+        </p>
   
         <h2>Os Relays:</h2>
-        <p>Relay ou retransmissor é basicamente um <b>servidor que armazena as mensagens e interações</b>. O Nostr permite que vários deles sejam usados simultaneamente ao invés de depender de um único servidor central que poderia censurar os usuários ou ser derrubado, podendo também o próprio usuário criar o seu próprio relay (servidor).</p>
+        <p>Relay ou retransmissor é basicamente um <b>servidor que armazena as mensagens e interações</b>. O Nostr permite que vários deles sejam usados simultaneamente ao invés de depender de um único servidor central que poderia censurar os usuários ou ser derrubado, podendo também o próprio usuário criar o seu próprio relay (servidor).
+        </p>
 
         <h2>Os NIPs:</h2>
-        <p>NIP <b>Nostr Implementation Possibilities</b> é uma adição ao codigo que permite realizar mais funções destinadas a um tipo de uso específico. Essas implementações permitem a criação de diferentes formatos de mensagem e conteúdo para cada tipo de client.</p>
-          <a href="https://developer.bitcoin.org/devguide/block_chain.html" target="_blank">Blockchain: Developer Guide;</a>
-          <a href="https://github.com/bitcoin/bitcoin/" target="_blank">Bitcoin Core;</a>
+        <p><b>NIP - Nostr Implementation Possibilities</b> (possibilidades de implementação no Nostr) é uma adição ao código que permite realizar mais funções destinadas a um tipo de uso específico. Essas implementações permitem a criação de diferentes formatos de mensagem e conteúdo para cada tipo de client, como por exemplo ao focar na facilitação da criação de listas ou artigos.</p>
+          <a href="https://github.com/nostr-protocol/nips" target="_blank">Nostr Nips;</a>
         </p>
   
         <h2>Curiosidades:</h2>
-        <p>O Nostr foi desenvolvido pelo brasileiro fiatjaf, em colaboração com outros progtamadores e com uma doação oferecida pelo Jack Dorsey (criador do Twitter), como um <b>software de código aberto</b> e estando amplamente ativo desde 2023.</p>
+        <p>O Nostr foi desenvolvido pelo brasileiro <a href="https://primal.net/e/note1hzc8ez6lz7em2et03strr3kn5x4nnvhhtpwv3ueqnq95wuz8zk9sx6eh7z" target="_blank">@fiatjaf</a>, em colaboração com outros progtamadores e com uma doação oferecida pelo Jack Dorsey (criador do Twitter), como um <b>software de código aberto</b> e estando amplamente ativo desde 2023.</p>
 
         <br>
         <h3>Vamos, comece a testar!</h3>
@@ -87,34 +90,32 @@
         
         <h2>Como começar:</h2>
         <p><b>Escolha um <i>client confiável</i> e sempre esteja de olho nas <i>notícias de segurança</i> sobre o client:</b></p>
-        <p>
-           <a href="https://nostrapps.com/" target="_blank">Aplicações no Nostr;</a>
-        </p>
+        <p><a href="https://nostrapps.com/" target="_blank">Aplicações no Nostr;</a></p>
   
         <h3>Endereços</h3>
-        <h4>Nostr Público (npub):</h4>
+        <h4>Endereço Nostr Público (npub):</h4>
         <p>Os clients usam o <b>npub</b> para te identificar como usuário e permitir que você, apesar de anônimo, seja encontrado nos clients.</p>
         <br>
-        <h4>Nostr Secreto (nsec):</h4>
-        <p>O client deve guardar e proteger o <b>nsec</b>, mas muito disso depende do gerenciamento do próprio usuário.</p>
+        <h4>Endereço Nostr Secreto (nsec):</h4>
+        <p>O client deve guardar e proteger o <b>nsec</b>, embora seja necessário registrar externamente e isso ainda dependa do gerenciamento do próprio usuário.</p>
   
         <h3>Clients Confiáveis:</h3>
         <p>Opte por <b>clients de código aberto</b>, que fornecam instruções de segurança da sua <b>nsec</b> logo na configuração. <b>Clients de código fechado</b> podem fornecer menos segurança ao seu <b>nsec</b>.</p>
-        <p><a href="https://electrum.org/" target="_blank">Electrum</a>, <a href="https://bluewallet.io/" target="_blank">Blue Wallet</a></p>
+        <p><a href="https://primal.net/" target="_blank">Primal - Client Web</a>, <a href="https://amethyst.social/" target="_blank">Amethyst - Client Android</a></p>
   
         <h3>Testando os Zaps:</h3>
         <p><b>Caso deseje fazar ou receber pagamentos em satoshis (sats) de bitcoin de forma simples no Nostr, escolha um client com carteira nativa ou escolha uma <i>Wallet</i> de zap (carteira lightning para o Nostr), antes pesquisando bem sobre ela ou pedindo ajuda a outros usuários para não correr riscos. Algumas contam com NWC - Nostr Wallet Conect, para confirmar diretamente os pagamentos.</b></p>
         <figure>
-          <img id="enviando-zap-para-fiatjaf" alt="Quantidades de envio de Zap - Símbolo de Raio" src="assets/enviando-zap-para-fiatjaf.png>
+          <img id="enviando-zap-para-fiatjaf" alt="Quantidades de envio de Zap - Símbolo de Raio" src="assets/enviando-zap-para-fiatjaf.png">
         </figure>
         <p>
            <a href="https://nostr.how/pt/zaps" target="_blank">Carteiras de Zap;</a>
         </p>
 
-    <h2>Tutoriais em slide:</h2>
+        <h2>Tutoriais em slide:</h2>
         <p>Se não abrir diretamente, pode abrir tranquilamente em outra aba.</p>
 
-        <h2>Tutorial de Amethyst (PDF)</h2>
+        <h2>Tutorial de Amethyst - Um APP Nostr para Android (PDF)</h2>
         <div class="pdf-container">
         <iframe src="https://pomf2.lain.la/f/vnu4aljw.pdf" frameborder="0" allowfullscreen></iframe>
         </div>
