@@ -35,8 +35,8 @@ main{
     box-sizing: border-box;
 }
 .img-responsiva {
-  max-width: 100%;
-  height: auto;
+  max-width: 75%;
+  height: 100%;
   display: block;
   margin: auto;
 }
