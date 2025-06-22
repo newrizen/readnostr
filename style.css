@@ -1,5 +1,6 @@
 *{
-    font-family:'Courier New', Courier, monospace;
+    /*font-family:'Courier New', Courier, monospace;*/
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box; /* Garante que padding e border não aumentem a largura do elemento */
 }
 
@@ -34,11 +35,11 @@ main{
     border: none;
     box-sizing: border-box;
 }
+
 .img-responsiva {
-  max-width: 75%;
-  height: 100%;
-  display: block;
-  margin: auto;
+    width: 100%; /* Deixa as imagens responsivas */
+    max-width: 650px; /* Limita a largura máxima das imagens */
+    margin: 0 auto; /* Centraliza as imagens */
 }
 
 .center{
@@ -67,7 +68,7 @@ main{
 
 #traits, #seed, #electrum, #trilemma{
     width: 100%; /* Deixa as imagens responsivas */
-    max-width: 500px; /* Limita a largura máxima das imagens */
+    max-width: 650px; /* Limita a largura máxima das imagens */
     margin: 0 auto; /* Centraliza as imagens */
 }
 
@@ -96,25 +97,6 @@ select, input {
     cursor: pointer;
 }
 
-button {
-    background: #8f00d7;
-    border-radius: 5px;
-    border: none;
-    height: 48px;
-    width: 100%;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-button:hover {
-    opacity: 0.9;
-}
-button:active {
-    opacity: 0.6;
-}
-
 .section-box {
     border: 2px solid #922da2;
     border-radius: 20px;
@@ -130,24 +112,6 @@ button:active {
 
 .arrow-img {
     margin: 16px 0;
-}
-
-.currency-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-}
-
-.currency {
-    color: #A8A8A8;
-    font-size: 14px;
-}
-
-.currency-value, .currency-value-to-convert {
-    color: #999999;
-    font-weight: 700;
-    font-size: 20px;
 }
 
 .colored{
